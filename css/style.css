@@ -1,0 +1,117 @@
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+
+:root{
+	font-family: Arial, sans-serif;
+}
+
+body{
+	background-image: url(../imagenes/fondo2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header, footer{
+	padding: 5px;
+	background: white;
+	border: 10px solid #0fe8e8;
+	width: 80%;
+	margin: 0 auto;
+}
+
+header h1{
+	text-align: center;
+	color: #d77504;
+}
+
+nav ul{
+	display: flex;
+	list-style-type: none;
+	justify-content: left;
+}
+
+nav ul li{
+	padding: 10px;
+	margin: 5px;
+	background: #961818;
+}
+
+nav ul li a{
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+h2{
+	color: white;
+	text-decoration: underline;
+}
+
+main {
+	display: flex;
+	flex-flow: column;
+	align-items: left;
+}
+
+div {
+	position: relative;
+	background: white;
+	padding: 10px;
+	margin: 10px;
+	border: 10px solid #696969;
+	border-radius: 10px;
+	-webkit-box-shadow: 4px 6px 9px -2px #000000; 
+	box-shadow: 3px 6px 9px -2px #000000;
+}
+
+div p{
+	float: left;
+	max-width: 40%;
+}
+
+div img{
+	border-radius: 100%;
+	object-fit:cover;
+	width: 200px;
+	height: 200px;
+	float: center;
+}
+
+div a{
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+	color: white;
+	background: #e30404;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 5px;
+}
+
+h1, h2, h3{
+	color: #c90b0b;
+}
+nav ul li:hover{
+    margin-left: 10px;
+    color:#d11616;
+    background-color: #0cf082;
+    transform: matrix3d(4deg);
+    -moz-transform: matrix3d(4deg);
+    -webkit-transform: matrix3d(4deg);
+}
+div a:hover{
+    margin-left: 10px;
+    color:#d11616;
+    background-color: #0cf082;
+    transform: matrix3d(4deg);
+    -moz-transform: matrix3d(4deg);
+    -webkit-transform: matrix3d(4deg);
+}
+footer{
+	text-align: center;
+	font-size: 120%;
+	font-weight: bold;
+}

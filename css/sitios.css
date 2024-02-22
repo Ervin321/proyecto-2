@@ -1,0 +1,97 @@
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+
+:root{
+	font-family: Arial, sans-serif;
+}
+
+body{
+	background-image: url(../imagenes/fondo2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header{
+	padding: 5px;
+	background: white;
+	border: 10px solid #545353;
+	width: 80%;
+	margin: 0 auto;
+}
+
+header h1{
+	text-align: center;
+	color: #e70e0e;
+}
+
+main{
+	width: 80%;
+	margin: 0 auto;
+}
+
+div {
+	position: relative;
+	background: white;
+	padding: 10px;
+	margin-top: 10px;
+	border: 10px solid #696969;
+	border-radius: 5px;
+	-webkit-box-shadow: 4px 6px 9px -2px #000000; 
+	box-shadow: 4px 6px 9px -2px #000000;
+}
+
+div p{
+	float: left;
+	max-width: 50%;
+}
+
+div table{
+	
+	display: inline-block;
+}
+
+div img{
+	float: right;
+	margin: 10px;
+}
+
+div h2{
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	background: #696969;
+	text-transform: uppercase;
+	padding: 10px;
+	font-weight: bold;
+}
+
+h1, h2, h3{
+	color: #696969;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+th, td{
+	text-align: center;
+	border: 2px solid #696969;
+	padding: 3px;
+}
+
+th{
+	color: white;
+	background: #696969;
+}
+a:hover{
+    margin-left: 10px;
+    color:#d11616;
+    background-color: #0cf082;
+    transform: matrix3d(4deg);
+    -moz-transform: matrix3d(4deg);
+    -webkit-transform: matrix3d(4deg);
+}
